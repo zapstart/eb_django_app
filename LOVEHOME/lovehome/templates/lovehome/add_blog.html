@@ -1,0 +1,37 @@
+{% extends 'lovehome/base.html' %}
+{% load staticfiles %}
+{% load markdown_deux_tags %}
+<html>
+    <head>
+        {% block local_css %}
+            <link rel="stylesheet" type="text/css" href="{% static 'lovehome/add_blog.css' %}" />
+        {% endblock %}
+    </head>
+    <body>
+        {% block blog_nav %}     
+            <a class="blog-nav-item" href="{% url 'lovehome:add_blog' %}">NEW STORY</a>
+            <a class="blog-nav-item" href="{% url 'lovehome:add_blog' %}">ABOUT</a>
+            <div class="btn-group">
+                <a class="btn dropdown-toggle" data-toggle="dropdown">
+                    {{ username }}<span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="{% url 'lovehome:logout' %}">Logout</a></li>
+                </ul>
+        {% endblock %} 
+        
+        {% block blog_main%} 
+            <form method="POST">
+                {% csrf_token %}
+                <p class="new_blog">标题</p>
+                <input type="text" name="title" value={{ title }}>   
+                <p class="new_blog">内容</p>
+                <textarea name="blog">{{ blog }}</textarea>
+                <div> 
+                    <button type="submit" class="btn btn-primary">提交</button>
+                    <button type="button" class="btn btn-primary" onclick="javascript:history.go(-1)">取消</button>
+                </div>
+            </form>
+        {% endblock %}
+    </body>
+</html>

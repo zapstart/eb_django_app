@@ -1,0 +1,33 @@
+{% load staticfiles %}
+{% load markdown_deux_tags %}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="{% static 'lovehome/lib/bootstrap/css/bootstrap.min.css' %}" />
+        {% block local_css %}{% endblock %} 
+    </head>
+    <body>
+        <div class="blog-masthead">
+            <div class="container">
+                <nav class="blog-nav">
+                    <a class="blog-nav-item" href="{% url 'lovehome:front_page' %}">HOME</a>
+                    {% block blog_nav %}{% endblock %}
+                </nav>
+            </div>
+        </div>
+        <div class="blog_main">
+            <h1>豆豆 LOVE 琛琛</h1>
+            {% block blog_main %}{% endblock %}
+        </div>
+        <div class="sidebar-module">
+            {% block blog_sidebar %}{% endblock %}
+        </div> 
+        <script type="text/javascript" src="{% static 'lovehome/lib/jquery-2.1.4.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'lovehome/lib/bootstrap/js/bootstrap.min.js' %}"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('.dropdown-toggle').dropdown();
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,42 @@
+{% extends 'lovehome/base.html' %}
+{% load staticfiles %}
+{% load markdown_deux_tags %}
+<html>
+    <head>
+        {% block local_css %}
+            <link rel="stylesheet" type="text/css" href="{% static 'lovehome/show_blog.css' %}" />
+        {% endblock %} 
+    </head>
+    <body>
+        {% block blog_nav %}
+            {% if login %} 
+                <a class="blog-nav-item" href="{% url 'lovehome:edit_blog' blog_data.id %}">EDIT</a>
+                <a class="blog-nav-item" href="{% url 'lovehome:delete_blog' blog_data.id %}">DELETE</a>
+                <a class="blog-nav-item" href="{% url 'lovehome:add_blog' %}">ABOUT</a>
+                <div class="btn-group">
+                    <a class="btn dropdown-toggle" data-toggle="dropdown">
+                        {{ username }}<span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="{% url 'lovehome:logout' %}">Logout</a></li>
+                    </ul>
+                </div>
+            {% else %}
+                <a class="blog-nav-item" href="{% url 'lovehome:add_blog' %}">ABOUT</a>
+                <a class="blog-nav-item" id="signup" href="{% url 'lovehome:signup' %}">SIGNUP</a>
+                <a class="blog-nav-item" id="login"  href="{% url 'lovehome:login' %}">LOGIN</a>
+            {% endif %}
+        {% endblock %} 
+        
+        {% block blog_main%} 
+            <div class="show_blog_title">
+                <h2>{{ blog_data.title | markdown }}</h2>
+            </div>
+            <div class="show_blog_content">
+                {{ blog_data.blog_content | markdown }}
+            </div>
+            <hr />
+        {% endblock %} 
+    </body>
+</html>
+
