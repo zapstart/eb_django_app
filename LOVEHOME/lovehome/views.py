@@ -40,8 +40,8 @@ def show_time_category(request, blog_year):
     #        year_array.append(i) 
 
     _blog_time   = _blog_order_by_time.filter(b_created_time__year = str(blog_year))    
-    _blog_year = {'blog_year'     : _10_blog_order_by_time, 
-                  'blog_data'     : _blog_time, 
+    _blog_year = {'blog_year'     : _blog_time, 
+                  'blog_data'     : _10_blog_order_by_time, 
                   'time_category' : year,
                   'login'         : request.session.get('loggedin'),
                   'username'      : 'zaptyping' 

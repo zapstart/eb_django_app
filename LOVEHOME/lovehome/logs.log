@@ -1,0 +1,568 @@
+Retrieving logs...
+============= i-f7d42a3e ==============
+-------------------------------------
+/var/log/eb-version-deployment.log
+-------------------------------------
+2015-07-13 01:42:14,404 [INFO] Found the latest version manifest file <Key: elasticbeanstalk-us-west-2-990410546492,resources/environments/e-am9iwvbt24/_runtime/versions/manifest_1436751578654> from bucket elasticbeanstalk-us-west-2-990410546492 and prefix resources/environments/e-am9iwvbt24/_runtime/versions/
+2015-07-13 01:42:14,457 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+2015-07-13 01:42:14,583 [INFO] Downloaded version label app-150712_183930 from s3 key <Key: elasticbeanstalk-us-west-2-990410546492,resources/environments/e-am9iwvbt24/_runtime/_versions/DRT_LOVE_ZCC/app-150712_183930>
+2015-07-13 02:49:14,807 [INFO] Version manifest file name already known. The latest version manifest file key is resources/environments/e-am9iwvbt24/_runtime/versions/manifest_1436755751521
+2015-07-13 02:49:14,868 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+2015-07-13 02:49:14,938 [INFO] Downloaded version label app-150712_194902 from s3 key <Key: elasticbeanstalk-us-west-2-990410546492,resources/environments/e-am9iwvbt24/_runtime/_versions/DRT_LOVE_ZCC/app-150712_194902>
+2015-07-13 18:41:39,971 [INFO] Version manifest file name already known. The latest version manifest file key is resources/environments/e-am9iwvbt24/_runtime/versions/manifest_1436812875357
+2015-07-13 18:41:40,040 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+2015-07-13 18:41:40,101 [INFO] Downloaded version label app-150713_114110 from s3 key <Key: elasticbeanstalk-us-west-2-990410546492,resources/environments/e-am9iwvbt24/_runtime/_versions/DRT_LOVE_ZCC/app-150713_114110>
+2015-07-13 18:49:35,195 [INFO] Version manifest file name already known. The latest version manifest file key is resources/environments/e-am9iwvbt24/_runtime/versions/manifest_1436813350976
+2015-07-13 18:49:35,277 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+2015-07-13 18:49:35,429 [INFO] Downloaded version label app-150713_114904 from s3 key <Key: elasticbeanstalk-us-west-2-990410546492,resources/environments/e-am9iwvbt24/_runtime/_versions/DRT_LOVE_ZCC/app-150713_114904>
+2015-07-13 20:43:25,757 [INFO] Version manifest file name already known. The latest version manifest file key is resources/environments/e-am9iwvbt24/_runtime/versions/manifest_1436820202235
+2015-07-13 20:43:25,834 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+2015-07-13 20:43:25,941 [INFO] Downloaded version label app-150713_134317 from s3 key <Key: elasticbeanstalk-us-west-2-990410546492,resources/environments/e-am9iwvbt24/_runtime/_versions/DRT_LOVE_ZCC/app-150713_134317>
+2015-07-15 06:54:14,344 [INFO] Version manifest file name already known. The latest version manifest file key is resources/environments/e-am9iwvbt24/_runtime/versions/manifest_1436943250766
+2015-07-15 06:54:14,413 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+2015-07-15 06:54:14,495 [INFO] Downloaded version label app-150714_235403 from s3 key <Key: elasticbeanstalk-us-west-2-990410546492,resources/environments/e-am9iwvbt24/_runtime/_versions/DRT_LOVE_ZCC/app-150714_235403>
+2015-07-15 07:04:46,272 [INFO] Version manifest file name already known. The latest version manifest file key is resources/environments/e-am9iwvbt24/_runtime/versions/manifest_1436943883071
+2015-07-15 07:04:46,346 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+2015-07-15 07:04:46,459 [INFO] Downloaded version label app-150715_000435 from s3 key <Key: elasticbeanstalk-us-west-2-990410546492,resources/environments/e-am9iwvbt24/_runtime/_versions/DRT_LOVE_ZCC/app-150715_000435>
+2015-07-15 07:08:01,290 [INFO] Version manifest file name already known. The latest version manifest file key is resources/environments/e-am9iwvbt24/_runtime/versions/manifest_1436944077669
+2015-07-15 07:08:01,367 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+2015-07-15 07:08:01,586 [INFO] Downloaded version label app-150715_000751 from s3 key <Key: elasticbeanstalk-us-west-2-990410546492,resources/environments/e-am9iwvbt24/_runtime/_versions/DRT_LOVE_ZCC/app-150715_000751>
+2015-07-17 03:57:25,551 [INFO] Version manifest file name already known. The latest version manifest file key is resources/environments/e-am9iwvbt24/_runtime/versions/manifest_1437105441876
+2015-07-17 03:57:25,650 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+2015-07-17 03:57:25,798 [INFO] Downloaded version label 85e7 from s3 key <Key: elasticbeanstalk-us-west-2-990410546492,resources/environments/e-am9iwvbt24/_runtime/_versions/DRT_LOVE_ZCC/85e7>
+2015-07-17 05:21:52,307 [INFO] Version manifest file name already known. The latest version manifest file key is resources/environments/e-am9iwvbt24/_runtime/versions/manifest_1437110508530
+2015-07-17 05:21:52,393 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+2015-07-17 05:21:52,498 [INFO] Downloaded version label 85e7 from s3 key <Key: elasticbeanstalk-us-west-2-990410546492,resources/environments/e-am9iwvbt24/_runtime/_versions/DRT_LOVE_ZCC/85e7>
+2015-07-17 05:26:52,509 [INFO] Version manifest file name already known. The latest version manifest file key is resources/environments/e-am9iwvbt24/_runtime/versions/manifest_1437110809007
+2015-07-17 05:26:52,683 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+2015-07-17 05:26:52,792 [INFO] Downloaded version label 85e7 from s3 key <Key: elasticbeanstalk-us-west-2-990410546492,resources/environments/e-am9iwvbt24/_runtime/_versions/DRT_LOVE_ZCC/85e7>
+2015-07-17 05:30:26,036 [INFO] Version manifest file name already known. The latest version manifest file key is resources/environments/e-am9iwvbt24/_runtime/versions/manifest_1437111022417
+2015-07-17 05:30:26,090 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+2015-07-17 05:30:26,166 [INFO] Downloaded version label 1bb4 from s3 key <Key: elasticbeanstalk-us-west-2-990410546492,resources/environments/e-am9iwvbt24/_runtime/_versions/DRT_LOVE_ZCC/1bb4>
+2015-07-17 05:42:30,773 [INFO] Version manifest file name already known. The latest version manifest file key is resources/environments/e-am9iwvbt24/_runtime/versions/manifest_1437111747181
+2015-07-17 05:42:30,850 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+2015-07-17 05:42:30,928 [INFO] Downloaded version label 7fb0 from s3 key <Key: elasticbeanstalk-us-west-2-990410546492,resources/environments/e-am9iwvbt24/_runtime/_versions/DRT_LOVE_ZCC/7fb0>
+2015-07-17 05:50:50,016 [INFO] Version manifest file name already known. The latest version manifest file key is resources/environments/e-am9iwvbt24/_runtime/versions/manifest_1437112246807
+2015-07-17 05:50:50,089 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+2015-07-17 05:50:50,169 [INFO] Downloaded version label app-150716_225037 from s3 key <Key: elasticbeanstalk-us-west-2-990410546492,resources/environments/e-am9iwvbt24/_runtime/_versions/DRT_LOVE_ZCC/app-150716_225037>
+
+
+
+-------------------------------------
+/opt/python/log/httpd.out
+-------------------------------------
+[Mon Jul 13 01:43:25.079950 2015] [so:warn] [pid 2607] AH01574: module wsgi_module is already loaded, skipping
+[Mon Jul 13 02:49:19.514721 2015] [so:warn] [pid 3366] AH01574: module wsgi_module is already loaded, skipping
+[Mon Jul 13 18:41:44.814971 2015] [so:warn] [pid 741] AH01574: module wsgi_module is already loaded, skipping
+[Mon Jul 13 18:49:40.150733 2015] [so:warn] [pid 1017] AH01574: module wsgi_module is already loaded, skipping
+[Mon Jul 13 20:43:30.731959 2015] [so:warn] [pid 2207] AH01574: module wsgi_module is already loaded, skipping
+[Mon Jul 13 22:48:01.588763 2015] [so:warn] [pid 3473] AH01574: module wsgi_module is already loaded, skipping
+[Tue Jul 14 01:13:09.546013 2015] [so:warn] [pid 4910] AH01574: module wsgi_module is already loaded, skipping
+[Tue Jul 14 22:49:38.265791 2015] [so:warn] [pid 15984] AH01574: module wsgi_module is already loaded, skipping
+[Tue Jul 14 23:01:09.994195 2015] [so:warn] [pid 16267] AH01574: module wsgi_module is already loaded, skipping
+[Tue Jul 14 23:12:31.227562 2015] [so:warn] [pid 16521] AH01574: module wsgi_module is already loaded, skipping
+[Wed Jul 15 06:54:19.214971 2015] [so:warn] [pid 20521] AH01574: module wsgi_module is already loaded, skipping
+[Wed Jul 15 07:04:51.220501 2015] [so:warn] [pid 20786] AH01574: module wsgi_module is already loaded, skipping
+[Wed Jul 15 07:08:06.554991 2015] [so:warn] [pid 21018] AH01574: module wsgi_module is already loaded, skipping
+[Fri Jul 17 03:57:30.733902 2015] [so:warn] [pid 1154] AH01574: module wsgi_module is already loaded, skipping
+[Fri Jul 17 05:21:57.198811 2015] [so:warn] [pid 2099] AH01574: module wsgi_module is already loaded, skipping
+[Fri Jul 17 05:26:57.500778 2015] [so:warn] [pid 2337] AH01574: module wsgi_module is already loaded, skipping
+[Fri Jul 17 05:30:30.849702 2015] [so:warn] [pid 2605] AH01574: module wsgi_module is already loaded, skipping
+[Fri Jul 17 05:42:35.726829 2015] [so:warn] [pid 2853] AH01574: module wsgi_module is already loaded, skipping
+[Fri Jul 17 05:50:54.956110 2015] [so:warn] [pid 3095] AH01574: module wsgi_module is already loaded, skipping
+
+
+
+-------------------------------------
+/var/log/httpd/error_log
+-------------------------------------
+[Tue Jul 14 22:50:32.944569 2015] [authz_core:error] [pid 15988] [client 172.31.30.100:18025] AH01630: client denied by server configuration: /staticlovehome, referer: http://drt-love-zcc-dev.elasticbeanstalk.com/
+[Tue Jul 14 22:50:46.559219 2015] [authz_core:error] [pid 15987] [client 172.31.30.100:18040] AH01630: client denied by server configuration: /staticlovehome, referer: http://drt-love-zcc-dev.elasticbeanstalk.com/
+[Tue Jul 14 22:50:46.559605 2015] [authz_core:error] [pid 15989] [client 172.31.30.100:18046] AH01630: client denied by server configuration: /staticlovehome, referer: http://drt-love-zcc-dev.elasticbeanstalk.com/
+[Tue Jul 14 22:50:46.559858 2015] [authz_core:error] [pid 15986] [client 172.31.30.100:18039] AH01630: client denied by server configuration: /staticlovehome, referer: http://drt-love-zcc-dev.elasticbeanstalk.com/
+[Tue Jul 14 22:50:46.560108 2015] [authz_core:error] [pid 15990] [client 172.31.30.100:18038] AH01630: client denied by server configuration: /staticlovehome, referer: http://drt-love-zcc-dev.elasticbeanstalk.com/
+[Tue Jul 14 22:50:46.669879 2015] [authz_core:error] [pid 15990] [client 172.31.30.100:18038] AH01630: client denied by server configuration: /staticlovehome, referer: http://drt-love-zcc-dev.elasticbeanstalk.com/
+[Tue Jul 14 22:50:51.454428 2015] [authz_core:error] [pid 15990] [client 172.31.30.100:18038] AH01630: client denied by server configuration: /static
+[Tue Jul 14 22:51:23.219780 2015] [authz_core:error] [pid 16048] [client 172.31.30.100:18060] AH01630: client denied by server configuration: /staticlovehome
+[Tue Jul 14 22:52:29.572562 2015] [authz_core:error] [pid 16045] [client 172.31.30.100:18088] AH01630: client denied by server configuration: /staticlovehome
+[Tue Jul 14 22:53:55.002649 2015] [authz_core:error] [pid 16044] [client 172.31.43.14:59615] AH01630: client denied by server configuration: /staticlovehome, referer: http://drt-love-zcc-dev.elasticbeanstalk.com/
+[Tue Jul 14 22:53:55.045716 2015] [authz_core:error] [pid 16044] [client 172.31.43.14:59615] AH01630: client denied by server configuration: /staticlovehome, referer: http://drt-love-zcc-dev.elasticbeanstalk.com/
+[Tue Jul 14 22:53:55.046163 2015] [authz_core:error] [pid 16043] [client 172.31.43.14:59626] AH01630: client denied by server configuration: /staticlovehome, referer: http://drt-love-zcc-dev.elasticbeanstalk.com/
+[Tue Jul 14 22:53:55.047112 2015] [authz_core:error] [pid 16041] [client 172.31.43.14:59630] AH01630: client denied by server configuration: /staticlovehome, referer: http://drt-love-zcc-dev.elasticbeanstalk.com/
+[Tue Jul 14 23:01:08.897428 2015] [mpm_prefork:notice] [pid 15984] AH00169: caught SIGTERM, shutting down
+[Tue Jul 14 23:01:09.998425 2015] [suexec:notice] [pid 16267] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Tue Jul 14 23:01:10.007001 2015] [so:warn] [pid 16267] AH01574: module wsgi_module is already loaded, skipping
+[Tue Jul 14 23:01:10.008595 2015] [auth_digest:notice] [pid 16267] AH01757: generating secret for digest authentication ...
+[Tue Jul 14 23:01:10.009079 2015] [lbmethod_heartbeat:notice] [pid 16267] AH02282: No slotmem from mod_heartmonitor
+[Tue Jul 14 23:01:10.010823 2015] [mpm_prefork:notice] [pid 16267] AH00163: Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/3.4.3 configured -- resuming normal operations
+[Tue Jul 14 23:01:10.010842 2015] [core:notice] [pid 16267] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Tue Jul 14 23:04:23.554406 2015] [authz_core:error] [pid 16269] [client 172.31.43.14:59912] AH01630: client denied by server configuration: /static, referer: http://drt-love-zcc-dev.elasticbeanstalk.com/
+[Tue Jul 14 23:04:23.565742 2015] [authz_core:error] [pid 16269] [client 172.31.43.14:59912] AH01630: client denied by server configuration: /static, referer: http://drt-love-zcc-dev.elasticbeanstalk.com/
+[Tue Jul 14 23:04:23.601573 2015] [authz_core:error] [pid 16269] [client 172.31.43.14:59912] AH01630: client denied by server configuration: /static, referer: http://drt-love-zcc-dev.elasticbeanstalk.com/
+[Tue Jul 14 23:04:23.602199 2015] [authz_core:error] [pid 16295] [client 172.31.43.14:59927] AH01630: client denied by server configuration: /static, referer: http://drt-love-zcc-dev.elasticbeanstalk.com/
+[Tue Jul 14 23:04:23.667715 2015] [authz_core:error] [pid 16295] [client 172.31.43.14:59927] AH01630: client denied by server configuration: /static, referer: http://drt-love-zcc-dev.elasticbeanstalk.com/
+[Tue Jul 14 23:12:30.131216 2015] [mpm_prefork:notice] [pid 16267] AH00169: caught SIGTERM, shutting down
+[Tue Jul 14 23:12:31.233339 2015] [suexec:notice] [pid 16521] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Tue Jul 14 23:12:31.242103 2015] [so:warn] [pid 16521] AH01574: module wsgi_module is already loaded, skipping
+[Tue Jul 14 23:12:31.243534 2015] [auth_digest:notice] [pid 16521] AH01757: generating secret for digest authentication ...
+[Tue Jul 14 23:12:31.244107 2015] [lbmethod_heartbeat:notice] [pid 16521] AH02282: No slotmem from mod_heartmonitor
+[Tue Jul 14 23:12:31.246047 2015] [mpm_prefork:notice] [pid 16521] AH00163: Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/3.4.3 configured -- resuming normal operations
+[Tue Jul 14 23:12:31.246065 2015] [core:notice] [pid 16521] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Wed Jul 15 06:54:18.119055 2015] [mpm_prefork:notice] [pid 16521] AH00169: caught SIGTERM, shutting down
+[Wed Jul 15 06:54:19.220232 2015] [suexec:notice] [pid 20521] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Jul 15 06:54:19.228645 2015] [so:warn] [pid 20521] AH01574: module wsgi_module is already loaded, skipping
+[Wed Jul 15 06:54:19.230085 2015] [auth_digest:notice] [pid 20521] AH01757: generating secret for digest authentication ...
+[Wed Jul 15 06:54:19.230560 2015] [lbmethod_heartbeat:notice] [pid 20521] AH02282: No slotmem from mod_heartmonitor
+[Wed Jul 15 06:54:19.232395 2015] [mpm_prefork:notice] [pid 20521] AH00163: Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/3.4.3 configured -- resuming normal operations
+[Wed Jul 15 06:54:19.232410 2015] [core:notice] [pid 20521] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Wed Jul 15 06:57:42.055169 2015] [autoindex:error] [pid 20576] [client 104.10.168.214:47114] AH01276: Cannot serve directory /opt/python/current/app/LOVEHOME/lovehome/static/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Jul 15 07:01:49.932907 2015] [autoindex:error] [pid 20523] [client 104.10.168.214:47728] AH01276: Cannot serve directory /opt/python/current/app/LOVEHOME/lovehome/static/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Jul 15 07:04:50.122548 2015] [mpm_prefork:notice] [pid 20521] AH00169: caught SIGTERM, shutting down
+[Wed Jul 15 07:04:51.224924 2015] [suexec:notice] [pid 20786] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Jul 15 07:04:51.233552 2015] [so:warn] [pid 20786] AH01574: module wsgi_module is already loaded, skipping
+[Wed Jul 15 07:04:51.235173 2015] [auth_digest:notice] [pid 20786] AH01757: generating secret for digest authentication ...
+[Wed Jul 15 07:04:51.235674 2015] [lbmethod_heartbeat:notice] [pid 20786] AH02282: No slotmem from mod_heartmonitor
+[Wed Jul 15 07:04:51.237643 2015] [mpm_prefork:notice] [pid 20786] AH00163: Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/3.4.3 configured -- resuming normal operations
+[Wed Jul 15 07:04:51.237661 2015] [core:notice] [pid 20786] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Wed Jul 15 07:08:05.458676 2015] [mpm_prefork:notice] [pid 20786] AH00169: caught SIGTERM, shutting down
+[Wed Jul 15 07:08:06.559143 2015] [suexec:notice] [pid 21018] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Jul 15 07:08:06.567705 2015] [so:warn] [pid 21018] AH01574: module wsgi_module is already loaded, skipping
+[Wed Jul 15 07:08:06.569165 2015] [auth_digest:notice] [pid 21018] AH01757: generating secret for digest authentication ...
+[Wed Jul 15 07:08:06.569719 2015] [lbmethod_heartbeat:notice] [pid 21018] AH02282: No slotmem from mod_heartmonitor
+[Wed Jul 15 07:08:06.571631 2015] [mpm_prefork:notice] [pid 21018] AH00163: Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/3.4.3 configured -- resuming normal operations
+[Wed Jul 15 07:08:06.571650 2015] [core:notice] [pid 21018] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Thu Jul 16 06:34:10.424437 2015] [cgi:error] [pid 23376] [client 172.31.43.14:30073] AH02811: script not found or unable to stat: /var/www/cgi-bin/rtpd.cgi
+[Thu Jul 16 07:59:41.851590 2015] [cgi:error] [pid 21022] [client 172.31.30.100:58151] AH02811: script not found or unable to stat: /var/www/cgi-bin/rtpd.cgi
+[Thu Jul 16 08:46:31.738140 2015] [cgi:error] [pid 21061] [client 69.64.46.86:65535] AH02811: script not found or unable to stat: /var/www/cgi-bin/rtpd.cgi
+[Fri Jul 17 03:57:29.638004 2015] [mpm_prefork:notice] [pid 21018] AH00169: caught SIGTERM, shutting down
+[Fri Jul 17 03:57:30.740012 2015] [suexec:notice] [pid 1154] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Fri Jul 17 03:57:30.748601 2015] [so:warn] [pid 1154] AH01574: module wsgi_module is already loaded, skipping
+[Fri Jul 17 03:57:30.750345 2015] [auth_digest:notice] [pid 1154] AH01757: generating secret for digest authentication ...
+[Fri Jul 17 03:57:30.750850 2015] [lbmethod_heartbeat:notice] [pid 1154] AH02282: No slotmem from mod_heartmonitor
+[Fri Jul 17 03:57:30.752628 2015] [mpm_prefork:notice] [pid 1154] AH00163: Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/3.4.3 configured -- resuming normal operations
+[Fri Jul 17 03:57:30.752647 2015] [core:notice] [pid 1154] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Jul 17 05:21:56.103708 2015] [mpm_prefork:notice] [pid 1154] AH00169: caught SIGTERM, shutting down
+[Fri Jul 17 05:21:57.204046 2015] [suexec:notice] [pid 2099] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Fri Jul 17 05:21:57.212410 2015] [so:warn] [pid 2099] AH01574: module wsgi_module is already loaded, skipping
+[Fri Jul 17 05:21:57.213791 2015] [auth_digest:notice] [pid 2099] AH01757: generating secret for digest authentication ...
+[Fri Jul 17 05:21:57.214344 2015] [lbmethod_heartbeat:notice] [pid 2099] AH02282: No slotmem from mod_heartmonitor
+[Fri Jul 17 05:21:57.216058 2015] [mpm_prefork:notice] [pid 2099] AH00163: Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/3.4.3 configured -- resuming normal operations
+[Fri Jul 17 05:21:57.216073 2015] [core:notice] [pid 2099] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Jul 17 05:26:56.403089 2015] [mpm_prefork:notice] [pid 2099] AH00169: caught SIGTERM, shutting down
+[Fri Jul 17 05:26:57.505525 2015] [suexec:notice] [pid 2337] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Fri Jul 17 05:26:57.514176 2015] [so:warn] [pid 2337] AH01574: module wsgi_module is already loaded, skipping
+[Fri Jul 17 05:26:57.515596 2015] [auth_digest:notice] [pid 2337] AH01757: generating secret for digest authentication ...
+[Fri Jul 17 05:26:57.516132 2015] [lbmethod_heartbeat:notice] [pid 2337] AH02282: No slotmem from mod_heartmonitor
+[Fri Jul 17 05:26:57.518030 2015] [mpm_prefork:notice] [pid 2337] AH00163: Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/3.4.3 configured -- resuming normal operations
+[Fri Jul 17 05:26:57.518047 2015] [core:notice] [pid 2337] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Jul 17 05:30:29.753382 2015] [mpm_prefork:notice] [pid 2337] AH00169: caught SIGTERM, shutting down
+[Fri Jul 17 05:30:30.854068 2015] [suexec:notice] [pid 2605] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Fri Jul 17 05:30:30.862623 2015] [so:warn] [pid 2605] AH01574: module wsgi_module is already loaded, skipping
+[Fri Jul 17 05:30:30.864114 2015] [auth_digest:notice] [pid 2605] AH01757: generating secret for digest authentication ...
+[Fri Jul 17 05:30:30.864658 2015] [lbmethod_heartbeat:notice] [pid 2605] AH02282: No slotmem from mod_heartmonitor
+[Fri Jul 17 05:30:30.866541 2015] [mpm_prefork:notice] [pid 2605] AH00163: Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/3.4.3 configured -- resuming normal operations
+[Fri Jul 17 05:30:30.866558 2015] [core:notice] [pid 2605] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Jul 17 05:42:34.630503 2015] [mpm_prefork:notice] [pid 2605] AH00169: caught SIGTERM, shutting down
+[Fri Jul 17 05:42:35.732733 2015] [suexec:notice] [pid 2853] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Fri Jul 17 05:42:35.741094 2015] [so:warn] [pid 2853] AH01574: module wsgi_module is already loaded, skipping
+[Fri Jul 17 05:42:35.742664 2015] [auth_digest:notice] [pid 2853] AH01757: generating secret for digest authentication ...
+[Fri Jul 17 05:42:35.743156 2015] [lbmethod_heartbeat:notice] [pid 2853] AH02282: No slotmem from mod_heartmonitor
+[Fri Jul 17 05:42:35.745036 2015] [mpm_prefork:notice] [pid 2853] AH00163: Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/3.4.3 configured -- resuming normal operations
+[Fri Jul 17 05:42:35.745066 2015] [core:notice] [pid 2853] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Jul 17 05:50:53.860463 2015] [mpm_prefork:notice] [pid 2853] AH00169: caught SIGTERM, shutting down
+[Fri Jul 17 05:50:54.960423 2015] [suexec:notice] [pid 3095] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Fri Jul 17 05:50:54.968750 2015] [so:warn] [pid 3095] AH01574: module wsgi_module is already loaded, skipping
+[Fri Jul 17 05:50:54.970181 2015] [auth_digest:notice] [pid 3095] AH01757: generating secret for digest authentication ...
+[Fri Jul 17 05:50:54.970698 2015] [lbmethod_heartbeat:notice] [pid 3095] AH02282: No slotmem from mod_heartmonitor
+[Fri Jul 17 05:50:54.972492 2015] [mpm_prefork:notice] [pid 3095] AH00163: Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/3.4.3 configured -- resuming normal operations
+[Fri Jul 17 05:50:54.972520 2015] [core:notice] [pid 3095] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+
+
+
+-------------------------------------
+/opt/python/log/supervisord.log
+-------------------------------------
+2015-07-13 01:42:27,955 CRIT Supervisor running as root (no user in config file)
+2015-07-13 01:42:28,071 INFO RPC interface 'supervisor' initialized
+2015-07-13 01:42:28,071 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2015-07-13 01:42:28,071 INFO supervisord started with pid 2380
+2015-07-13 01:42:29,073 INFO spawned: 'httpd' with pid 2460
+2015-07-13 01:42:30,075 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-07-13 01:43:24,044 INFO stopped: httpd (exit status 0)
+2015-07-13 01:43:25,049 INFO spawned: 'httpd' with pid 2607
+2015-07-13 01:43:26,081 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-07-13 02:49:18,477 INFO stopped: httpd (exit status 0)
+2015-07-13 02:49:19,482 INFO spawned: 'httpd' with pid 3366
+2015-07-13 02:49:20,516 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-07-13 18:41:43,779 INFO stopped: httpd (exit status 0)
+2015-07-13 18:41:44,783 INFO spawned: 'httpd' with pid 741
+2015-07-13 18:41:45,816 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-07-13 18:49:39,114 INFO stopped: httpd (exit status 0)
+2015-07-13 18:49:40,118 INFO spawned: 'httpd' with pid 1017
+2015-07-13 18:49:41,152 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-07-13 20:43:29,695 INFO stopped: httpd (exit status 0)
+2015-07-13 20:43:30,700 INFO spawned: 'httpd' with pid 2207
+2015-07-13 20:43:31,733 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-07-13 22:48:00,550 INFO stopped: httpd (exit status 0)
+2015-07-13 22:48:01,556 INFO spawned: 'httpd' with pid 3473
+2015-07-13 22:48:02,590 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-07-14 01:13:08,509 INFO stopped: httpd (exit status 0)
+2015-07-14 01:13:09,514 INFO spawned: 'httpd' with pid 4910
+2015-07-14 01:13:10,547 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-07-14 22:49:37,228 INFO stopped: httpd (exit status 0)
+2015-07-14 22:49:38,233 INFO spawned: 'httpd' with pid 15984
+2015-07-14 22:49:39,267 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-07-14 23:01:08,956 INFO stopped: httpd (exit status 0)
+2015-07-14 23:01:09,961 INFO spawned: 'httpd' with pid 16267
+2015-07-14 23:01:10,995 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-07-14 23:12:30,190 INFO stopped: httpd (exit status 0)
+2015-07-14 23:12:31,195 INFO spawned: 'httpd' with pid 16521
+2015-07-14 23:12:32,228 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-07-15 06:54:18,178 INFO stopped: httpd (exit status 0)
+2015-07-15 06:54:19,182 INFO spawned: 'httpd' with pid 20521
+2015-07-15 06:54:20,216 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-07-15 07:04:50,182 INFO stopped: httpd (exit status 0)
+2015-07-15 07:04:51,186 INFO spawned: 'httpd' with pid 20786
+2015-07-15 07:04:52,221 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-07-15 07:08:05,518 INFO stopped: httpd (exit status 0)
+2015-07-15 07:08:06,522 INFO spawned: 'httpd' with pid 21018
+2015-07-15 07:08:07,556 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-07-17 03:57:29,697 INFO stopped: httpd (exit status 0)
+2015-07-17 03:57:30,701 INFO spawned: 'httpd' with pid 1154
+2015-07-17 03:57:31,735 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-07-17 05:21:56,162 INFO stopped: httpd (exit status 0)
+2015-07-17 05:21:57,167 INFO spawned: 'httpd' with pid 2099
+2015-07-17 05:21:58,200 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-07-17 05:26:56,462 INFO stopped: httpd (exit status 0)
+2015-07-17 05:26:57,467 INFO spawned: 'httpd' with pid 2337
+2015-07-17 05:26:58,501 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-07-17 05:30:29,812 INFO stopped: httpd (exit status 0)
+2015-07-17 05:30:30,817 INFO spawned: 'httpd' with pid 2605
+2015-07-17 05:30:31,851 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-07-17 05:42:34,689 INFO stopped: httpd (exit status 0)
+2015-07-17 05:42:35,694 INFO spawned: 'httpd' with pid 2853
+2015-07-17 05:42:36,728 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-07-17 05:50:53,919 INFO stopped: httpd (exit status 0)
+2015-07-17 05:50:54,924 INFO spawned: 'httpd' with pid 3095
+2015-07-17 05:50:55,957 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+
+
+
+-------------------------------------
+/var/log/httpd/access_log
+-------------------------------------
+104.10.168.214 (-) - - [17/Jul/2015:05:46:58 +0000] "GET / HTTP/1.1" 200 3336 "http://drtlovezcc.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36"
+104.10.168.214 (-) - - [17/Jul/2015:05:46:59 +0000] "GET /login/ HTTP/1.1" 200 1942 "http://drtlovezcc.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36"
+104.10.168.214 (-) - - [17/Jul/2015:05:46:59 +0000] "GET /static/lovehome/login.css HTTP/1.1" 304 - "http://drtlovezcc.com/login/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36"
+112.65.193.13 (-) - - [17/Jul/2015:05:46:59 +0000] "GET /logout HTTP/1.1" 301 - "http://drtlovezcc.com/" "Mozilla/5.0 (Linux; U; Android 4.4.2; zh-cn; GT-I9500 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 MQQBrowser/5.0 QQ-Manager Mobile Safari/537.36"
+104.10.168.214 (-) - - [17/Jul/2015:05:47:00 +0000] "GET / HTTP/1.1" 200 3336 "http://drtlovezcc.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36"
+112.65.193.13 (-) - - [17/Jul/2015:05:47:00 +0000] "GET /logout/ HTTP/1.1" 302 - "http://drtlovezcc.com/" "Mozilla/5.0 (Linux; U; Android 4.4.2; zh-cn; GT-I9500 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 MQQBrowser/5.0 QQ-Manager Mobile Safari/537.36"
+112.65.193.13 (-) - - [17/Jul/2015:05:47:01 +0000] "GET / HTTP/1.1" 200 3336 "http://drtlovezcc.com/" "Mozilla/5.0 (Linux; U; Android 4.4.2; zh-cn; GT-I9500 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 MQQBrowser/5.0 QQ-Manager Mobile Safari/537.36"
+104.10.168.214 (-) - - [17/Jul/2015:05:47:01 +0000] "GET /signup/ HTTP/1.1" 200 1487 "http://drtlovezcc.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36"
+104.10.168.214 (-) - - [17/Jul/2015:05:47:04 +0000] "GET /page/19/ HTTP/1.1" 200 2451 "http://drtlovezcc.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36"
+104.10.168.214 (-) - - [17/Jul/2015:05:47:04 +0000] "GET /static/lovehome/show_blog.css HTTP/1.1" 304 - "http://drtlovezcc.com/page/19/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36"
+180.153.214.190 (-) - - [17/Jul/2015:05:47:04 +0000] "GET /signup HTTP/1.1" 301 - "http://drtlovezcc.com/" "Mozilla/5.0 (Linux; U; Android 4.4.2; zh-cn; GT-I9500 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 MQQBrowser/5.0 QQ-Manager Mobile Safari/537.36"
+180.153.214.190 (-) - - [17/Jul/2015:05:47:08 +0000] "GET /signup/ HTTP/1.1" 200 1487 "http://drtlovezcc.com/" "Mozilla/5.0 (Linux; U; Android 4.4.2; zh-cn; GT-I9500 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 MQQBrowser/5.0 QQ-Manager Mobile Safari/537.36"
+104.10.168.214 (-) - - [17/Jul/2015:05:47:10 +0000] "GET /login/ HTTP/1.1" 200 1942 "http://drtlovezcc.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36"
+104.10.168.214 (-) - - [17/Jul/2015:05:47:23 +0000] "POST /login/ HTTP/1.1" 302 - "http://drtlovezcc.com/login/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36"
+104.10.168.214 (-) - - [17/Jul/2015:05:47:23 +0000] "GET / HTTP/1.1" 200 3607 "http://drtlovezcc.com/login/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36"
+104.10.168.214 (-) - - [17/Jul/2015:05:47:23 +0000] "GET /static/lovehome/lib/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://drtlovezcc.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36"
+104.10.168.214 (-) - - [17/Jul/2015:05:47:23 +0000] "GET /static/lovehome/front_page.css HTTP/1.1" 304 - "http://drtlovezcc.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36"
+104.10.168.214 (-) - - [17/Jul/2015:05:47:23 +0000] "GET /static/lovehome/lib/jquery-2.1.4.min.js HTTP/1.1" 304 - "http://drtlovezcc.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36"
+104.10.168.214 (-) - - [17/Jul/2015:05:47:23 +0000] "GET /static/lovehome/lib/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 - "http://drtlovezcc.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36"
+104.10.168.214 (-) - - [17/Jul/2015:05:47:24 +0000] "GET /page/19/ HTTP/1.1" 500 27 "http://drtlovezcc.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36"
+104.10.168.214 (-) - - [17/Jul/2015:05:47:29 +0000] "GET /time/2015/ HTTP/1.1" 200 3363 "http://drtlovezcc.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36"
+104.10.168.214 (-) - - [17/Jul/2015:05:47:30 +0000] "GET /time/2014/ HTTP/1.1" 200 3210 "http://drtlovezcc.com/time/2015/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36"
+104.10.168.214 (-) - - [17/Jul/2015:05:47:32 +0000] "GET /page/17/ HTTP/1.1" 500 27 "http://drtlovezcc.com/time/2014/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36"
+104.10.168.214 (-) - - [17/Jul/2015:05:47:35 +0000] "GET / HTTP/1.1" 200 3607 "http://drtlovezcc.com/time/2014/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36"
+104.10.168.214 (-) - - [17/Jul/2015:05:47:38 +0000] "GET /time/2015/ HTTP/1.1" 200 3363 "http://drtlovezcc.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36"
+104.10.168.214 (-) - - [17/Jul/2015:05:47:40 +0000] "GET /time/2014/ HTTP/1.1" 200 3210 "http://drtlovezcc.com/time/2015/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36"
+104.10.168.214 (-) - - [17/Jul/2015:05:47:42 +0000] "GET /time/2014/ HTTP/1.1" 200 3210 "http://drtlovezcc.com/time/2014/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36"
+104.10.168.214 (-) - - [17/Jul/2015:05:47:42 +0000] "GET /time/2015/ HTTP/1.1" 200 3363 "http://drtlovezcc.com/time/2014/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36"
+104.10.168.214 (-) - - [17/Jul/2015:05:47:51 +0000] "GET /time/2015/ HTTP/1.1" 200 3363 "http://drtlovezcc.com/time/2015/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36"
+104.10.168.214 (-) - - [17/Jul/2015:05:47:52 +0000] "GET /time/2014/ HTTP/1.1" 200 3210 "http://drtlovezcc.com/time/2015/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36"
+104.10.168.214 (-) - - [17/Jul/2015:05:47:54 +0000] "GET /time/2015/ HTTP/1.1" 200 3363 "http://drtlovezcc.com/time/2014/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36"
+104.10.168.214 (-) - - [17/Jul/2015:05:47:56 +0000] "GET / HTTP/1.1" 200 3607 "http://drtlovezcc.com/time/2015/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36"
+104.10.168.214 (-) - - [17/Jul/2015:05:47:59 +0000] "GET /page/19/ HTTP/1.1" 500 27 "http://drtlovezcc.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36"
+127.0.0.1 (-) - - [17/Jul/2015:05:50:57 +0000] "GET / HTTP/1.1" 400 26 "-" "Python-urllib/2.7"
+104.10.168.214 (-) - - [17/Jul/2015:05:51:38 +0000] "GET / HTTP/1.1" 200 3336 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:51:38 +0000] "GET /static/lovehome/front_page.css HTTP/1.1" 200 2314 "http://drtlovezcc.com/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:51:38 +0000] "GET /static/lovehome/lib/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 35951 "http://drtlovezcc.com/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:51:38 +0000] "GET /static/lovehome/lib/jquery-2.1.4.min.js HTTP/1.1" 200 84345 "http://drtlovezcc.com/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:51:38 +0000] "GET /static/lovehome/lib/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 117305 "http://drtlovezcc.com/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:51:41 +0000] "GET / HTTP/1.1" 200 3336 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:51:41 +0000] "GET /static/lovehome/lib/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://drtlovezcc.com/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:51:41 +0000] "GET /static/lovehome/front_page.css HTTP/1.1" 304 - "http://drtlovezcc.com/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:51:41 +0000] "GET /static/lovehome/lib/jquery-2.1.4.min.js HTTP/1.1" 304 - "http://drtlovezcc.com/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:51:41 +0000] "GET /static/lovehome/lib/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 - "http://drtlovezcc.com/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:51:42 +0000] "GET /page/19/ HTTP/1.1" 200 2555 "http://drtlovezcc.com/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:51:42 +0000] "GET /static/lovehome/show_blog.css HTTP/1.1" 200 1815 "http://drtlovezcc.com/page/19/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:51:45 +0000] "GET /login/ HTTP/1.1" 200 1942 "http://drtlovezcc.com/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:51:45 +0000] "GET /static/lovehome/login.css HTTP/1.1" 200 955 "http://drtlovezcc.com/login/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:51:53 +0000] "POST /login/ HTTP/1.1" 302 - "http://drtlovezcc.com/login/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:51:53 +0000] "GET / HTTP/1.1" 200 3607 "http://drtlovezcc.com/login/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:51:55 +0000] "GET /page/19/ HTTP/1.1" 500 27 "http://drtlovezcc.com/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:53:25 +0000] "GET / HTTP/1.1" 200 3607 "http://drtlovezcc.com/login/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:53:34 +0000] "GET /edit/19 HTTP/1.1" 301 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:53:34 +0000] "GET /edit/19/ HTTP/1.1" 200 2273 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:53:34 +0000] "GET /static/lovehome/add_blog.css HTTP/1.1" 200 1180 "http://drtlovezcc.com/edit/19/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:53:38 +0000] "GET /page/19/ HTTP/1.1" 500 27 "http://drtlovezcc.com/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:53:41 +0000] "GET / HTTP/1.1" 200 3607 "http://drtlovezcc.com/login/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:53:44 +0000] "GET /page HTTP/1.1" 404 78 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:53:46 +0000] "GET /page/ HTTP/1.1" 404 79 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:54:10 +0000] "GET /edit/ HTTP/1.1" 404 79 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:54:13 +0000] "GET /edit/19/ HTTP/1.1" 200 2273 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:54:19 +0000] "GET /page/19 HTTP/1.1" 301 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:54:19 +0000] "GET /page/19/ HTTP/1.1" 500 27 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:56:41 +0000] "GET /edit/19/ HTTP/1.1" 200 2273 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:56:42 +0000] "GET / HTTP/1.1" 200 3607 "http://drtlovezcc.com/edit/19/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+180.153.163.191 (-) - - [17/Jul/2015:05:56:48 +0000] "GET /add HTTP/1.1" 301 - "-" "Mozilla/5.0 (Linux; U; Android 4.4.2; zh-cn; GT-I9500 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 MQQBrowser/5.0 QQ-Manager Mobile Safari/537.36"
+180.153.163.191 (-) - - [17/Jul/2015:05:56:50 +0000] "GET /add/ HTTP/1.1" 302 - "-" "Mozilla/5.0 (Linux; U; Android 4.4.2; zh-cn; GT-I9500 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 MQQBrowser/5.0 QQ-Manager Mobile Safari/537.36"
+180.153.163.191 (-) - - [17/Jul/2015:05:56:51 +0000] "GET / HTTP/1.1" 200 3336 "-" "Mozilla/5.0 (Linux; U; Android 4.4.2; zh-cn; GT-I9500 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 MQQBrowser/5.0 QQ-Manager Mobile Safari/537.36"
+180.153.163.191 (-) - - [17/Jul/2015:05:56:48 +0000] "GET /static/lovehome/lib/jquery-2.1.4.min.js HTTP/1.1" 200 84345 "http://drtlovezcc.com/static/lovehome/lib/jquery-2.1.4.min.js" "Mozilla/5.0 (Linux; U; Android 4.4.2; zh-cn; GT-I9500 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 MQQBrowser/5.0 QQ-Manager Mobile Safari/537.36"
+180.153.163.191 (-) - - [17/Jul/2015:05:56:49 +0000] "GET /static/lovehome/lib/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 35951 "http://drtlovezcc.com/static/lovehome/lib/bootstrap/js/bootstrap.min.js" "Mozilla/5.0 (Linux; U; Android 4.4.2; zh-cn; GT-I9500 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 MQQBrowser/5.0 QQ-Manager Mobile Safari/537.36"
+104.10.168.214 (-) - - [17/Jul/2015:05:58:07 +0000] "GET / HTTP/1.1" 200 3607 "http://drtlovezcc.com/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:58:09 +0000] "GET /time/2015/ HTTP/1.1" 200 3363 "http://drtlovezcc.com/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:58:10 +0000] "GET /time/2015/ HTTP/1.1" 200 3363 "http://drtlovezcc.com/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:58:10 +0000] "GET /static/lovehome/lib/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://drtlovezcc.com/time/2015/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:58:10 +0000] "GET /static/lovehome/front_page.css HTTP/1.1" 304 - "http://drtlovezcc.com/time/2015/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:58:10 +0000] "GET /static/lovehome/lib/jquery-2.1.4.min.js HTTP/1.1" 304 - "http://drtlovezcc.com/time/2015/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:58:10 +0000] "GET /static/lovehome/lib/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 - "http://drtlovezcc.com/time/2015/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:58:11 +0000] "GET /time/2015/ HTTP/1.1" 200 3363 "http://drtlovezcc.com/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:58:11 +0000] "GET /static/lovehome/lib/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://drtlovezcc.com/time/2015/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:58:11 +0000] "GET /static/lovehome/front_page.css HTTP/1.1" 304 - "http://drtlovezcc.com/time/2015/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:58:11 +0000] "GET /static/lovehome/lib/jquery-2.1.4.min.js HTTP/1.1" 304 - "http://drtlovezcc.com/time/2015/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:58:11 +0000] "GET /static/lovehome/lib/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 - "http://drtlovezcc.com/time/2015/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:58:12 +0000] "GET /time/2015/ HTTP/1.1" 200 3363 "http://drtlovezcc.com/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:58:13 +0000] "GET /static/lovehome/lib/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://drtlovezcc.com/time/2015/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:58:13 +0000] "GET /static/lovehome/front_page.css HTTP/1.1" 304 - "http://drtlovezcc.com/time/2015/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:58:13 +0000] "GET /static/lovehome/lib/jquery-2.1.4.min.js HTTP/1.1" 304 - "http://drtlovezcc.com/time/2015/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:58:13 +0000] "GET /static/lovehome/lib/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 - "http://drtlovezcc.com/time/2015/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:58:17 +0000] "GET / HTTP/1.1" 200 3607 "http://drtlovezcc.com/time/2015/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:58:19 +0000] "GET /page/18/ HTTP/1.1" 500 27 "http://drtlovezcc.com/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+112.64.235.91 (-) - - [17/Jul/2015:05:58:19 +0000] "GET /time/2015 HTTP/1.1" 301 - "http://drtlovezcc.com/" "Mozilla/5.0 (Linux; U; Android 4.4.2; zh-cn; GT-I9500 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 MQQBrowser/5.0 QQ-Manager Mobile Safari/537.36"
+::1 (-) - - [17/Jul/2015:05:58:20 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/3.4.3 (internal dummy connection)"
+112.64.235.91 (-) - - [17/Jul/2015:05:58:20 +0000] "GET /time/2015/ HTTP/1.1" 200 3092 "http://drtlovezcc.com/" "Mozilla/5.0 (Linux; U; Android 4.4.2; zh-cn; GT-I9500 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 MQQBrowser/5.0 QQ-Manager Mobile Safari/537.36"
+104.10.168.214 (-) - - [17/Jul/2015:05:58:22 +0000] "GET /page/19/ HTTP/1.1" 500 27 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:58:26 +0000] "GET /page/1 HTTP/1.1" 301 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:58:26 +0000] "GET /page/1/ HTTP/1.1" 404 81 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:58:28 +0000] "GET /page/12 HTTP/1.1" 301 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:58:28 +0000] "GET /page/12/ HTTP/1.1" 404 82 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+104.10.168.214 (-) - - [17/Jul/2015:05:58:31 +0000] "GET /page/19/ HTTP/1.1" 500 27 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 (-) - - [17/Jul/2015:05:58:34 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/3.4.3 (internal dummy connection)"
+::1 (-) - - [17/Jul/2015:05:58:36 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/3.4.3 (internal dummy connection)"
+
+
+
+-------------------------------------
+/var/log/eb-activity.log
+-------------------------------------
+    inflating: /opt/python/ondeck/app/.git/objects/00/f6c1f1ed5d7dfb5f289a6c4626adb46cac3c2a  
+     creating: /opt/python/ondeck/app/.git/objects/0a/
+    inflating: /opt/python/ondeck/app/.git/objects/0a/784fa769212348b3cb42f43f2d32c54e6fff6a  
+    inflating: /opt/python/ondeck/app/.git/objects/0a/8c20ea4482c6d2b0c9cdaf74c4b05c2c8c44e9  
+     creating: /opt/python/ondeck/app/.git/objects/96/
+    inflating: /opt/python/ondeck/app/.git/objects/96/e7d70585cb7034cfdfcfb826e9798451627020  
+     creating: /opt/python/ondeck/app/.git/refs/heads/
+    inflating: /opt/python/ondeck/app/.git/refs/heads/master  
+     creating: /opt/python/ondeck/app/.git/refs/remotes/eb_django_blog/
+    inflating: /opt/python/ondeck/app/.git/refs/remotes/eb_django_blog/master  
+     creating: /opt/python/ondeck/app/.git/logs/
+    inflating: /opt/python/ondeck/app/.git/logs/HEAD  
+     creating: /opt/python/ondeck/app/.git/logs/refs/heads/
+    inflating: /opt/python/ondeck/app/.git/logs/refs/heads/master  
+     creating: /opt/python/ondeck/app/.git/logs/refs/remotes/eb_django_blog/
+    inflating: /opt/python/ondeck/app/.git/logs/refs/remotes/eb_django_blog/master  
+     creating: /opt/python/ondeck/app/.git/hooks/
+    inflating: /opt/python/ondeck/app/.git/hooks/pre-push.sample  
+    inflating: /opt/python/ondeck/app/.git/hooks/commit-msg.sample  
+    inflating: /opt/python/ondeck/app/.git/hooks/prepare-commit-msg.sample  
+    inflating: /opt/python/ondeck/app/.git/hooks/update.sample  
+    inflating: /opt/python/ondeck/app/.git/hooks/applypatch-msg.sample  
+    inflating: /opt/python/ondeck/app/.git/hooks/post-update.sample  
+    inflating: /opt/python/ondeck/app/.git/hooks/pre-applypatch.sample  
+    inflating: /opt/python/ondeck/app/.git/hooks/pre-commit.sample  
+    inflating: /opt/python/ondeck/app/.git/hooks/pre-rebase.sample  
+[2015-07-17T05:50:51.194Z] INFO  [2966]  - [CMD-AppDeploy/AppDeployStage0/AppDeployPreHook/03deploy.py] : Starting activity...
+[2015-07-17T05:50:51.742Z] INFO  [2966]  - [CMD-AppDeploy/AppDeployStage0/AppDeployPreHook/03deploy.py] : Completed activity. Result:
+  You are using pip version 7.0.3, however version 7.1.0 is available.
+  You should consider upgrading via the 'pip install --upgrade pip' command.
+  Requirement already satisfied (use --upgrade to upgrade): Django==1.8.3 in /opt/python/run/venv/lib/python3.4/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 1))
+  Requirement already satisfied (use --upgrade to upgrade): django-markdown-deux==1.0.5 in /opt/python/run/venv/lib/python3.4/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 2))
+  Requirement already satisfied (use --upgrade to upgrade): markdown2==2.3.0 in /opt/python/run/venv/lib/python3.4/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 3))
+  Requirement already satisfied (use --upgrade to upgrade): wheel==0.24.0 in /opt/python/run/venv/lib/python3.4/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 4))
+[2015-07-17T05:50:51.743Z] INFO  [2966]  - [CMD-AppDeploy/AppDeployStage0/AppDeployPreHook/04configen.py] : Starting activity...
+[2015-07-17T05:50:53.047Z] INFO  [2966]  - [CMD-AppDeploy/AppDeployStage0/AppDeployPreHook/04configen.py] : Completed activity.
+[2015-07-17T05:50:53.047Z] INFO  [2966]  - [CMD-AppDeploy/AppDeployStage0/AppDeployPreHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/appdeploy/pre.
+[2015-07-17T05:50:53.047Z] INFO  [2966]  - [CMD-AppDeploy/AppDeployStage0/EbExtensionPostBuild] : Starting activity...
+[2015-07-17T05:50:53.331Z] INFO  [2966]  - [CMD-AppDeploy/AppDeployStage0/EbExtensionPostBuild/Infra-EmbeddedPostBuild] : Starting activity...
+[2015-07-17T05:50:53.331Z] INFO  [2966]  - [CMD-AppDeploy/AppDeployStage0/EbExtensionPostBuild/Infra-EmbeddedPostBuild] : Completed activity.
+[2015-07-17T05:50:53.347Z] INFO  [2966]  - [CMD-AppDeploy/AppDeployStage0/EbExtensionPostBuild] : Completed activity.
+[2015-07-17T05:50:53.347Z] INFO  [2966]  - [CMD-AppDeploy/AppDeployStage0/InfraCleanEbextension] : Starting activity...
+[2015-07-17T05:50:53.349Z] INFO  [2966]  - [CMD-AppDeploy/AppDeployStage0/InfraCleanEbextension] : Completed activity. Result:
+  Cleaned ebextensions subdirectories from /opt/python/ondeck/app.
+[2015-07-17T05:50:53.349Z] INFO  [2966]  - [CMD-AppDeploy/AppDeployStage0] : Completed activity. Result:
+  Command CMD-AppDeploy stage 0 completed.
+[2015-07-17T05:50:53.349Z] INFO  [2966]  - [CMD-AppDeploy/AppDeployStage1] : Starting activity...
+[2015-07-17T05:50:53.349Z] INFO  [2966]  - [CMD-AppDeploy/AppDeployStage1/AppDeployEnactHook] : Starting activity...
+[2015-07-17T05:50:53.349Z] INFO  [2966]  - [CMD-AppDeploy/AppDeployStage1/AppDeployEnactHook/01flip.py] : Starting activity...
+[2015-07-17T05:50:58.084Z] INFO  [2966]  - [CMD-AppDeploy/AppDeployStage1/AppDeployEnactHook/01flip.py] : Completed activity. Result:
+  httpd: stopped
+  httpd: started
+  httpd                            RUNNING   pid 3095, uptime 0:00:03
+[2015-07-17T05:50:58.085Z] INFO  [2966]  - [CMD-AppDeploy/AppDeployStage1/AppDeployEnactHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/appdeploy/enact.
+[2015-07-17T05:50:58.085Z] INFO  [2966]  - [CMD-AppDeploy/AppDeployStage1/AppDeployPostHook] : Starting activity...
+[2015-07-17T05:50:58.086Z] INFO  [2966]  - [CMD-AppDeploy/AppDeployStage1/AppDeployPostHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/appdeploy/post.
+[2015-07-17T05:50:58.086Z] INFO  [2966]  - [CMD-AppDeploy/AppDeployStage1] : Completed activity. Result:
+  Command CMD-AppDeploy stage 1 completed.
+[2015-07-17T05:50:58.086Z] INFO  [2966]  - [CMD-AppDeploy/AddonsAfter] : Starting activity...
+[2015-07-17T05:50:58.086Z] INFO  [2966]  - [CMD-AppDeploy/AddonsAfter/ConfigLogRotation] : Starting activity...
+[2015-07-17T05:50:58.086Z] INFO  [2966]  - [CMD-AppDeploy/AddonsAfter/ConfigLogRotation/10-config.sh] : Starting activity...
+[2015-07-17T05:50:58.174Z] INFO  [2966]  - [CMD-AppDeploy/AddonsAfter/ConfigLogRotation/10-config.sh] : Completed activity. Result:
+  Disabled forced hourly log rotation.
+[2015-07-17T05:50:58.174Z] INFO  [2966]  - [CMD-AppDeploy/AddonsAfter/ConfigLogRotation] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/addons/logpublish/hooks/config.
+[2015-07-17T05:50:58.174Z] INFO  [2966]  - [CMD-AppDeploy/AddonsAfter] : Completed activity.
+[2015-07-17T05:50:58.174Z] INFO  [2966]  - [CMD-AppDeploy] : Completed activity. Result:
+  Command CMD-AppDeploy succeeded.
+[2015-07-17T05:55:16.067Z] INFO  [3189]  - [CMD-TailLogs] : Starting activity...
+[2015-07-17T05:55:16.297Z] INFO  [3189]  - [CMD-TailLogs/AddonsBefore] : Starting activity...
+[2015-07-17T05:55:16.297Z] INFO  [3189]  - [CMD-TailLogs/AddonsBefore] : Completed activity.
+[2015-07-17T05:55:16.297Z] INFO  [3189]  - [CMD-TailLogs/TailLogs] : Starting activity...
+[2015-07-17T05:55:16.297Z] INFO  [3189]  - [CMD-TailLogs/TailLogs/TailLogs] : Starting activity...
+[2015-07-17T05:55:16.519Z] INFO  [3189]  - [CMD-TailLogs/TailLogs/TailLogs] : Completed activity.
+[2015-07-17T05:55:16.519Z] INFO  [3189]  - [CMD-TailLogs/TailLogs] : Completed activity. Result:
+  Command CMD-TailLogs stage 0 completed.
+[2015-07-17T05:55:16.519Z] INFO  [3189]  - [CMD-TailLogs/AddonsAfter] : Starting activity...
+[2015-07-17T05:55:16.520Z] INFO  [3189]  - [CMD-TailLogs/AddonsAfter] : Completed activity.
+[2015-07-17T05:55:16.520Z] INFO  [3189]  - [CMD-TailLogs] : Completed activity. Result:
+  Command CMD-TailLogs succeeded.
+[2015-07-17T05:59:06.359Z] INFO  [3232]  - [CMD-TailLogs] : Starting activity...
+[2015-07-17T05:59:06.584Z] INFO  [3232]  - [CMD-TailLogs/AddonsBefore] : Starting activity...
+[2015-07-17T05:59:06.584Z] INFO  [3232]  - [CMD-TailLogs/AddonsBefore] : Completed activity.
+[2015-07-17T05:59:06.584Z] INFO  [3232]  - [CMD-TailLogs/TailLogs] : Starting activity...
+[2015-07-17T05:59:06.584Z] INFO  [3232]  - [CMD-TailLogs/TailLogs/TailLogs] : Starting activity...
+[2015-07-17T05:59:06.909Z] INFO  [3232]  - [CMD-TailLogs/TailLogs/TailLogs] : Completed activity.
+[2015-07-17T05:59:06.909Z] INFO  [3232]  - [CMD-TailLogs/TailLogs] : Completed activity. Result:
+  Command CMD-TailLogs stage 0 completed.
+[2015-07-17T05:59:06.909Z] INFO  [3232]  - [CMD-TailLogs/AddonsAfter] : Starting activity...
+[2015-07-17T05:59:06.909Z] INFO  [3232]  - [CMD-TailLogs/AddonsAfter] : Completed activity.
+[2015-07-17T05:59:06.909Z] INFO  [3232]  - [CMD-TailLogs] : Completed activity. Result:
+  Command CMD-TailLogs succeeded.
+[2015-07-17T06:00:11.651Z] INFO  [3256]  - [CMD-TailLogs] : Starting activity...
+[2015-07-17T06:00:11.881Z] INFO  [3256]  - [CMD-TailLogs/AddonsBefore] : Starting activity...
+[2015-07-17T06:00:11.881Z] INFO  [3256]  - [CMD-TailLogs/AddonsBefore] : Completed activity.
+[2015-07-17T06:00:11.881Z] INFO  [3256]  - [CMD-TailLogs/TailLogs] : Starting activity...
+[2015-07-17T06:00:11.881Z] INFO  [3256]  - [CMD-TailLogs/TailLogs/TailLogs] : Starting activity...
+
+
+
+-------------------------------------
+/var/log/eb-commandprocessor.log
+-------------------------------------
+[2015-07-17T05:50:49.637Z] INFO  [2966]  : Running 2 of 7 actions: InfraWriteApp1...
+[2015-07-17T05:50:49.637Z] INFO  [2966]  : Running 3 of 7 actions: InfraWriteApp2...
+[2015-07-17T05:50:50.204Z] INFO  [2966]  : Running 4 of 7 actions: EbExtensionPreBuild...
+[2015-07-17T05:50:50.517Z] INFO  [2966]  : Running 5 of 7 actions: AppDeployPreHook...
+[2015-07-17T05:50:53.047Z] INFO  [2966]  : Running 6 of 7 actions: EbExtensionPostBuild...
+[2015-07-17T05:50:53.347Z] INFO  [2966]  : Running 7 of 7 actions: InfraCleanEbextension...
+[2015-07-17T05:50:53.349Z] INFO  [2966]  : Running stage 1 of command CMD-AppDeploy...
+[2015-07-17T05:50:53.349Z] DEBUG [2966]  : Loaded 2 actions for stage 1.
+[2015-07-17T05:50:53.349Z] INFO  [2966]  : Running 1 of 2 actions: AppDeployEnactHook...
+[2015-07-17T05:50:58.085Z] INFO  [2966]  : Running 2 of 2 actions: AppDeployPostHook...
+[2015-07-17T05:50:58.086Z] INFO  [2966]  : Running AddonsAfter for command CMD-AppDeploy...
+[2015-07-17T05:50:58.174Z] INFO  [2966]  : Command CMD-AppDeploy succeeded!
+[2015-07-17T05:50:58.174Z] INFO  [2966]  : Command processor returning results: 
+{"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[]}]}
+[2015-07-17T05:55:16.065Z] DEBUG [3189]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2015-07-17T05:55:16.065Z] INFO  [3189]  : Received command CMD-TailLogs: {"command_name":"CMD-TailLogs","execution_data":"{\"aws_access_key_id\":\"ASIAIO5BNIKVI3NS4VGA\",\"policy\":\"eyJjb25kaXRpb25zIjpbWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLXB1Ymxpc2hfbWVjaGFuaXNtIiwiIl0sWyJlcSIsIiRhY2wiLCJwcml2YXRlIl0sWyJzdGFydHMtd2l0aCIsIiRrZXkiLCJyZXNvdXJjZXNcL2Vudmlyb25tZW50c1wvbG9nc1wvIl0sWyJlcSIsIiRidWNrZXQiLCJlbGFzdGljYmVhbnN0YWxrLXVzLXdlc3QtMi05OTA0MTA1NDY0OTIiXSxbInN0YXJ0cy13aXRoIiwiJHgtYW16LXNlY3VyaXR5LXRva2VuIiwiIl0sWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLWZpbGVfbmFtZSIsIiJdLFsic3RhcnRzLXdpdGgiLCIkeC1hbXotbWV0YS10aW1lX3N0YW1wIiwiIl0sWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLWJhdGNoX2lkIiwiIl0sWyJzdGFydHMtd2l0aCIsIiRDb250ZW50LVR5cGUiLCIiXV0sImV4cGlyYXRpb24iOiIyMDE1LTA3LTE3VDA2OjI1OjE0LjIyMFoifQ==\",\"security_token\":\"AQoDYXdzECca4AJvzJNpnapgS01WSToW\\\/57PquMB37Yx7XXv7XGYMHm2DmZxQ3x\\\/QhfcqK8qZLBmYIUg8FKXdAvrTaqKqw1HwOvnAwpajg9tHbCE+Nb93xlchBBQenD3SjMbXUVA+IOB0RAn+UPaXdmAMqivy+tiZtPeXXr2DDr4X12znSl4A8Aaa5bR9gde1QcUcCqnMzgr4et0fdKeBNVxMXKmkviimr4LUuy5WIXV5t\\\/8KOXAukUdspTZqUSb2N726E8UVt7kse5J+zkOL+ovrvohQe0I+XOgygtDzkoqtEIpeezpYpoqDndg7sytmJvYONSYNv4t9FJknwI49kd+h+4ZieTyN6XKtOm7YGnZDNzb64LOw4J2ewGiF0Y14OzVqLdlHMCc1blgPiicqodPZxMNinAvKCvXnjgHo34AwzKZVT3KKfQ2B59h70P7DRZJxy6EzVI3sGCdYH4HuFP+\\\/Tp5ZUX16TEuIPb5oa0F\",\"signature\":\"IMpcucxB+XYehlqqigWAIf3dHSk=\"}","request_id":"6485b608-2c48-11e5-b66f-0995ecdbffab","resource_name":"AWSEBAutoScalingGroup","data":"6485b608-2c48-11e5-b66f-0995ecdbffab","instance_ids":["i-f7d42a3e"],"command_timeout":"600","api_version":"1.0"}
+[2015-07-17T05:55:16.065Z] DEBUG [3189]  : Checking if the command processor should execute...
+[2015-07-17T05:55:16.066Z] DEBUG [3189]  : Checking whether the command is applicable to instance (i-f7d42a3e)..
+[2015-07-17T05:55:16.066Z] INFO  [3189]  : Command is applicable to this instance (i-f7d42a3e)..
+[2015-07-17T05:55:16.066Z] DEBUG [3189]  : Checking if the received command stage is valid..
+[2015-07-17T05:55:16.067Z] INFO  [3189]  : No stage_num in command. Valid stage..
+[2015-07-17T05:55:16.067Z] INFO  [3189]  : Command processor should execute command.
+[2015-07-17T05:55:16.067Z] DEBUG [3189]  : Storing current stage..
+[2015-07-17T05:55:16.067Z] DEBUG [3189]  : Stage_num does not exist. Not saving null stage. Returning..
+[2015-07-17T05:55:16.067Z] INFO  [3189]  : Executing command: CMD-TailLogs...
+[2015-07-17T05:55:16.067Z] DEBUG [3189]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2015-07-17T05:55:16.067Z] DEBUG [3189]  : Refreshing metadata..
+[2015-07-17T05:55:16.294Z] DEBUG [3189]  : Refreshed environment metadata.
+[2015-07-17T05:55:16.294Z] DEBUG [3189]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2015-07-17T05:55:16.295Z] DEBUG [3189]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2015-07-17T05:55:16.295Z] INFO  [3189]  : Found enabled addons: ["logpublish"].
+[2015-07-17T05:55:16.296Z] INFO  [3189]  : Updating Command definition of addon logpublish.
+[2015-07-17T05:55:16.296Z] DEBUG [3189]  : Loaded definition of Command CMD-TailLogs.
+[2015-07-17T05:55:16.296Z] INFO  [3189]  : Executing command CMD-TailLogs activities...
+[2015-07-17T05:55:16.296Z] DEBUG [3189]  : Setting environment variables..
+[2015-07-17T05:55:16.296Z] INFO  [3189]  : Running AddonsBefore for command CMD-TailLogs...
+[2015-07-17T05:55:16.297Z] DEBUG [3189]  : Running stages of Command CMD-TailLogs from stage 0 to stage 0...
+[2015-07-17T05:55:16.297Z] INFO  [3189]  : Running stage 0 of command CMD-TailLogs...
+[2015-07-17T05:55:16.297Z] DEBUG [3189]  : Loaded 1 actions for stage 0.
+[2015-07-17T05:55:16.297Z] INFO  [3189]  : Running 1 of 1 actions: TailLogs...
+[2015-07-17T05:55:16.519Z] INFO  [3189]  : Running AddonsAfter for command CMD-TailLogs...
+[2015-07-17T05:55:16.520Z] INFO  [3189]  : Command CMD-TailLogs succeeded!
+[2015-07-17T05:55:16.520Z] INFO  [3189]  : Command processor returning results: 
+{"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[{"msg":"[Instance: i-f7d42a3e] Successfully finished tailing 7 log(s)","severity":"INFO","timestamp":1437112516520}]}]}
+[2015-07-17T05:59:06.357Z] DEBUG [3232]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2015-07-17T05:59:06.357Z] INFO  [3232]  : Received command CMD-TailLogs: {"command_name":"CMD-TailLogs","execution_data":"{\"aws_access_key_id\":\"ASIAIIBCOUAYEUZQ7JIA\",\"policy\":\"eyJjb25kaXRpb25zIjpbWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLXB1Ymxpc2hfbWVjaGFuaXNtIiwiIl0sWyJlcSIsIiRhY2wiLCJwcml2YXRlIl0sWyJzdGFydHMtd2l0aCIsIiRrZXkiLCJyZXNvdXJjZXNcL2Vudmlyb25tZW50c1wvbG9nc1wvIl0sWyJlcSIsIiRidWNrZXQiLCJlbGFzdGljYmVhbnN0YWxrLXVzLXdlc3QtMi05OTA0MTA1NDY0OTIiXSxbInN0YXJ0cy13aXRoIiwiJHgtYW16LXNlY3VyaXR5LXRva2VuIiwiIl0sWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLWZpbGVfbmFtZSIsIiJdLFsic3RhcnRzLXdpdGgiLCIkeC1hbXotbWV0YS10aW1lX3N0YW1wIiwiIl0sWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLWJhdGNoX2lkIiwiIl0sWyJzdGFydHMtd2l0aCIsIiRDb250ZW50LVR5cGUiLCIiXV0sImV4cGlyYXRpb24iOiIyMDE1LTA3LTE3VDA2OjI5OjA0Ljc2M1oifQ==\",\"security_token\":\"AQoDYXdzECcasAKElqGJG2ZlQ5JygvYVlJ3zHKSO5Qbey\\\/LIxY1RFCZoq4sxjB4ZSNuPrAORSe72UohUcUXXGfKhY3RtvVnk0Gp+c3+hyabu6Aw49uZmX6SPOU\\\/ovfJ09QdIHX2HTtlb0joosUV0cHPrha1yO\\\/7TKUxe9Y7ogWAgMfuiKe0qVSm\\\/28YtsianSTtY\\\/cu4FTxdCDuKNkLnJNfdKo9J1KDwCO6rHvOGJLjxyWc1CBPM6u6oC\\\/K3zPjYXuQ8Mv5xbjnKcgT93\\\/JwJHxrIHZ7SsSvPfx64UsnG+NUqLbbROahObCnO49YtIgnMtEkCttN+prKen9f1EUmPih2gGQiV9EULPxMjYoWpNLoN\\\/ZvhFmneHTN68\\\/fSQ\\\/Nrp7WJtFlOJlPntMDx7Pt7cXdGdL6YzSQ64wjIKizoq0F\",\"signature\":\"HKBgJs4gNpEOft3KK8P7YK+kruQ=\"}","request_id":"edf87a5c-2c48-11e5-90e2-ed9fe2ca4c5c","resource_name":"AWSEBAutoScalingGroup","data":"edf87a5c-2c48-11e5-90e2-ed9fe2ca4c5c","instance_ids":["i-f7d42a3e"],"command_timeout":"600","api_version":"1.0"}
+[2015-07-17T05:59:06.357Z] DEBUG [3232]  : Checking if the command processor should execute...
+[2015-07-17T05:59:06.358Z] DEBUG [3232]  : Checking whether the command is applicable to instance (i-f7d42a3e)..
+[2015-07-17T05:59:06.358Z] INFO  [3232]  : Command is applicable to this instance (i-f7d42a3e)..
+[2015-07-17T05:59:06.358Z] DEBUG [3232]  : Checking if the received command stage is valid..
+[2015-07-17T05:59:06.358Z] INFO  [3232]  : No stage_num in command. Valid stage..
+[2015-07-17T05:59:06.358Z] INFO  [3232]  : Command processor should execute command.
+[2015-07-17T05:59:06.358Z] DEBUG [3232]  : Storing current stage..
+[2015-07-17T05:59:06.358Z] DEBUG [3232]  : Stage_num does not exist. Not saving null stage. Returning..
+[2015-07-17T05:59:06.359Z] INFO  [3232]  : Executing command: CMD-TailLogs...
+[2015-07-17T05:59:06.359Z] DEBUG [3232]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2015-07-17T05:59:06.359Z] DEBUG [3232]  : Refreshing metadata..
+[2015-07-17T05:59:06.582Z] DEBUG [3232]  : Refreshed environment metadata.
+[2015-07-17T05:59:06.582Z] DEBUG [3232]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2015-07-17T05:59:06.582Z] DEBUG [3232]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2015-07-17T05:59:06.583Z] INFO  [3232]  : Found enabled addons: ["logpublish"].
+[2015-07-17T05:59:06.584Z] INFO  [3232]  : Updating Command definition of addon logpublish.
+[2015-07-17T05:59:06.584Z] DEBUG [3232]  : Loaded definition of Command CMD-TailLogs.
+[2015-07-17T05:59:06.584Z] INFO  [3232]  : Executing command CMD-TailLogs activities...
+[2015-07-17T05:59:06.584Z] DEBUG [3232]  : Setting environment variables..
+[2015-07-17T05:59:06.584Z] INFO  [3232]  : Running AddonsBefore for command CMD-TailLogs...
+[2015-07-17T05:59:06.584Z] DEBUG [3232]  : Running stages of Command CMD-TailLogs from stage 0 to stage 0...
+[2015-07-17T05:59:06.584Z] INFO  [3232]  : Running stage 0 of command CMD-TailLogs...
+[2015-07-17T05:59:06.584Z] DEBUG [3232]  : Loaded 1 actions for stage 0.
+[2015-07-17T05:59:06.584Z] INFO  [3232]  : Running 1 of 1 actions: TailLogs...
+[2015-07-17T05:59:06.909Z] INFO  [3232]  : Running AddonsAfter for command CMD-TailLogs...
+[2015-07-17T05:59:06.909Z] INFO  [3232]  : Command CMD-TailLogs succeeded!
+[2015-07-17T05:59:06.910Z] INFO  [3232]  : Command processor returning results: 
+{"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[{"msg":"[Instance: i-f7d42a3e] Successfully finished tailing 7 log(s)","severity":"INFO","timestamp":1437112746910}]}]}
+[2015-07-17T06:00:11.649Z] DEBUG [3256]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2015-07-17T06:00:11.649Z] INFO  [3256]  : Received command CMD-TailLogs: {"command_name":"CMD-TailLogs","execution_data":"{\"aws_access_key_id\":\"ASIAIBHZ5GOZ6S6LKIRQ\",\"policy\":\"eyJjb25kaXRpb25zIjpbWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLXB1Ymxpc2hfbWVjaGFuaXNtIiwiIl0sWyJlcSIsIiRhY2wiLCJwcml2YXRlIl0sWyJzdGFydHMtd2l0aCIsIiRrZXkiLCJyZXNvdXJjZXNcL2Vudmlyb25tZW50c1wvbG9nc1wvIl0sWyJlcSIsIiRidWNrZXQiLCJlbGFzdGljYmVhbnN0YWxrLXVzLXdlc3QtMi05OTA0MTA1NDY0OTIiXSxbInN0YXJ0cy13aXRoIiwiJHgtYW16LXNlY3VyaXR5LXRva2VuIiwiIl0sWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLWZpbGVfbmFtZSIsIiJdLFsic3RhcnRzLXdpdGgiLCIkeC1hbXotbWV0YS10aW1lX3N0YW1wIiwiIl0sWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLWJhdGNoX2lkIiwiIl0sWyJzdGFydHMtd2l0aCIsIiRDb250ZW50LVR5cGUiLCIiXV0sImV4cGlyYXRpb24iOiIyMDE1LTA3LTE3VDA2OjMwOjA5LjY4NVoifQ==\",\"security_token\":\"AQoDYXdzECcasAJ35Fm35x0BYGPwCvS\\\/SfTOMFPG1uSCq5\\\/jkRlJMcJi7sIt0QDsMDeqjJky1ICGkRBKLsp0YAwMJDkaAS4HdQYv+ANl46MfKNb4JWjb0KAw7Ahx2F+7oKBzuYLY64ERfqxBpUtxjGf\\\/Bui8o5Z+oMg0KeFz+37j2T3kSDL+FWIXSchureOBYQrZ+ad+VOHwmbYY0wehe8cv+EerF6cyZMQMJhOm1UmabZaAB1Dhs6WmPwaCHPeoR6HDJg59Oitt1CzhsZ74ynqm4yM3nU3Z5Qr9XHyzOkBtxluZRJMUWQSCKZzo7H4Mhz85lm1c7OrY8GLrtIW4LicVfCGZwmI+wmqn6lV5zZpxInyr4tiQptt085zem4+4sw56lhcj2iX8QCOKl7A6Z2ZJ6KbUTgFeze0GIOmzoq0F\",\"signature\":\"rFMkE9moIO2SX1SLVVNkqy5lT1Y=\"}","request_id":"14a76eb3-2c49-11e5-b8b7-01483b1f9123","resource_name":"AWSEBAutoScalingGroup","data":"14a76eb3-2c49-11e5-b8b7-01483b1f9123","instance_ids":["i-f7d42a3e"],"command_timeout":"600","api_version":"1.0"}
+[2015-07-17T06:00:11.649Z] DEBUG [3256]  : Checking if the command processor should execute...
+[2015-07-17T06:00:11.650Z] DEBUG [3256]  : Checking whether the command is applicable to instance (i-f7d42a3e)..
+[2015-07-17T06:00:11.650Z] INFO  [3256]  : Command is applicable to this instance (i-f7d42a3e)..
+[2015-07-17T06:00:11.650Z] DEBUG [3256]  : Checking if the received command stage is valid..
+[2015-07-17T06:00:11.650Z] INFO  [3256]  : No stage_num in command. Valid stage..
+[2015-07-17T06:00:11.650Z] INFO  [3256]  : Command processor should execute command.
+[2015-07-17T06:00:11.650Z] DEBUG [3256]  : Storing current stage..
+[2015-07-17T06:00:11.651Z] DEBUG [3256]  : Stage_num does not exist. Not saving null stage. Returning..
+[2015-07-17T06:00:11.651Z] INFO  [3256]  : Executing command: CMD-TailLogs...
+[2015-07-17T06:00:11.651Z] DEBUG [3256]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2015-07-17T06:00:11.651Z] DEBUG [3256]  : Refreshing metadata..
+[2015-07-17T06:00:11.878Z] DEBUG [3256]  : Refreshed environment metadata.
+[2015-07-17T06:00:11.878Z] DEBUG [3256]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2015-07-17T06:00:11.879Z] DEBUG [3256]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2015-07-17T06:00:11.879Z] INFO  [3256]  : Found enabled addons: ["logpublish"].
+[2015-07-17T06:00:11.880Z] INFO  [3256]  : Updating Command definition of addon logpublish.
+[2015-07-17T06:00:11.880Z] DEBUG [3256]  : Loaded definition of Command CMD-TailLogs.
+[2015-07-17T06:00:11.881Z] INFO  [3256]  : Executing command CMD-TailLogs activities...
+[2015-07-17T06:00:11.881Z] DEBUG [3256]  : Setting environment variables..
+[2015-07-17T06:00:11.881Z] INFO  [3256]  : Running AddonsBefore for command CMD-TailLogs...
+[2015-07-17T06:00:11.881Z] DEBUG [3256]  : Running stages of Command CMD-TailLogs from stage 0 to stage 0...
+[2015-07-17T06:00:11.881Z] INFO  [3256]  : Running stage 0 of command CMD-TailLogs...
+[2015-07-17T06:00:11.881Z] DEBUG [3256]  : Loaded 1 actions for stage 0.
+[2015-07-17T06:00:11.881Z] INFO  [3256]  : Running 1 of 1 actions: TailLogs...
+
+
+
