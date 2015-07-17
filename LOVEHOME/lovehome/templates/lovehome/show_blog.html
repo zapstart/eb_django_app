@@ -10,8 +10,8 @@
     <body>
         {% block blog_nav %}
             {% if login %} 
-                <a class="blog-nav-item" href="{% url 'lovehome:edit_blog' blog_data.id %}">EDIT</a>
-                <a class="blog-nav-item" href="{% url 'lovehome:delete_blog' blog_data.id %}">DELETE</a>
+                <a class="blog-nav-item" href="{% url 'lovehome:edit_blog' blog_data_show.id %}">EDIT</a>
+                <a class="blog-nav-item" href="{% url 'lovehome:delete_blog' blog_data_show.id %}">DELETE</a>
                 <a class="blog-nav-item" href="{% url 'lovehome:add_blog' %}">ABOUT</a>
                 <div class="btn-group">
                     <a class="btn dropdown-toggle" data-toggle="dropdown">

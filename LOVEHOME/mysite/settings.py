@@ -24,9 +24,9 @@ STATIC_ROOT = '/home/rdou/rdou_work/eb_django_app/LOVEHOME/lovehome/static'
 SECRET_KEY = '(#y9+aw_6dbz(!=yv!!tkk%t0=pv^yqa-oqjo1+q4q9j@8zb-e'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False 
+DEBUG = True 
 
-ALLOWED_HOSTS = ['drtlovezcc.com', '']
+ALLOWED_HOSTS = ['drtlovezcc.com']
 
 
 # Application definition
