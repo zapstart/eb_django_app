@@ -29,6 +29,7 @@
         {% endblock %} 
         
         {% block blog_main%} 
+            {% csrf_token %}
             <div class="show_blog_title">
                 <h2>{{ blog_data_show.title | markdown }}</h2>
             </div>
