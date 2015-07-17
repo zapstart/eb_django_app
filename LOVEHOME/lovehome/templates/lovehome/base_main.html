@@ -20,9 +20,20 @@
             <h1>豆豆 LOVE 琛琛</h1>
             {% block blog_main %}{% endblock %}
         </div>
-        <div class="sidebar">
-            {% block blog_sidebar %}{% endblock %}
-        </div> 
+            {% block blog_sidebar %}
+                <h4>最新故事</h4>
+                {% for blog in blog_data %} 
+                <ul class="nav nav-sidebar">
+                    <li><a href="{% url 'lovehome:blog_page' blog.id %}">{{ blog.title}}</a></li>
+                </ul>
+                {% endfor %}
+                <h4>时间</h4>
+                {% for year in time_category%} 
+                <ul class="nav nav-sidebar">
+                    <li><a href="{% url 'lovehome:time_category' year%}">{{ year }}</a></li>
+                </ul> 
+                {% endfor %}
+            {% endblock %}
         <script type="text/javascript" src="{% static 'lovehome/lib/jquery-2.1.4.min.js' %}"></script>
         <script type="text/javascript" src="{% static 'lovehome/lib/bootstrap/js/bootstrap.min.js' %}"></script>
         <script type="text/javascript">

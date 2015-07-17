@@ -5,17 +5,21 @@ from django.http import HttpResponseRedirect, HttpResponse
 from .models import blog_text, user_password 
 from .utils import signup_login 
 
+year         = ['2015']
+_oldest_year = 0
+_latest_year = 0
+
 def show_front(request):
-    year = ['2015']
+    global year, _oldest_year, _latest_year 
     
-    _blog_ordered_by_time = blog_text.objects.order_by('-b_created_time')
-    if _blog_ordered_by_time: 
-        _oldest_year = int(str(_blog_ordered_by_time.reverse()[0].b_created_time)[ : 4])
-        _latest_year = int(str(_blog_ordered_by_time[0].b_created_time)[ : 4])
+    _blog_order_by_time = blog_text.objects.order_by('-b_created_time')[ : 10]
+    if _blog_order_by_time: 
+        _oldest_year = int(str(_blog_order_by_time.reverse()[0].b_created_time)[ : 4])
+        _latest_year = int(str(_blog_order_by_time[0].b_created_time)[ : 4])
         for i in range(_oldest_year, _latest_year + 1):
             if str(i) not in year: 
                 year.append(i)
-    _blog_front           = {'blog_data'     : _blog_ordered_by_time,
+    _blog_front           = {'blog_data'     : _blog_order_by_time,
                              'time_category' : year,
                              'login'         : request.session.get('loggedin'),
                              'username'      : 'zaptyping' 
@@ -23,20 +27,21 @@ def show_front(request):
     
     return render(request, 'lovehome/front_page.html', _blog_front)
 
-def show_time_category(request, year):
-    year_array = ['2015'] 
+def show_time_category(request, blog_year):
+    global year, _oldest_year, _latest_year 
     
-    _blog_data                 = blog_text.objects.order_by('-b_created_time') 
-    _oldest_year = int(str(_blog_data.reverse()[0].b_created_time)[ : 4])
-    _latest_year = int(str(_blog_data[0].b_created_time)[ : 4])
-    for i in range(_oldest_year, _latest_year + 1):
-        if str(i) not in year_array: 
-            year_array.append(i) 
+    _blog_order_by_time      = blog_text.objects.order_by('-b_created_time')
+    _10_blog_order_by_time   = _blog_order_by_time[ : 10] 
+    #_oldest_year = int(str(_blog_data.reverse()[0].b_created_time)[ : 4])
+    #_latest_year = int(str(_blog_data[0].b_created_time)[ : 4])
+    #for i in range(_oldest_year, _latest_year + 1):
+    #    if str(i) not in year_array: 
+    #        year_array.append(i) 
 
-    _blog_order_by_time   = _blog_data.filter(b_created_time__year = str(year))    
-    _blog_year = {'blog_year'     : _blog_order_by_time, 
-                  'blog_data'     : _blog_data, 
-                  'time_category' : year_array,
+    _blog_time   = _blog_order_by_time.filter(b_created_time__year = str(blog_year))    
+    _blog_year = {'blog_year'     : _10_blog_order_by_time, 
+                  'blog_data'     : _blog_time, 
+                  'time_category' : year,
                   'login'         : request.session.get('loggedin'),
                   'username'      : 'zaptyping' 
                  } 
@@ -72,10 +77,15 @@ def edit_blog(request, page_id):
             return HttpResponseRedirect(reverse('lovehome:front_page'))
 
 def show_blog(request, page_id):
-    _blog_data = get_object_or_404(blog_text, pk=page_id)
-    _blog_content = {'blog_data' : _blog_data, 
-                     'login'     : request.session.get('loggedin'),
-                     'username'  : 'zaptyping' 
+    global year, _oldest_year, _latest_year 
+    
+    _blog_data                 = blog_text.objects.order_by('-b_created_time')[ : 10] 
+    _blog_data_show            = get_object_or_404(blog_text, pk=page_id)
+    _blog_content = {'blog_data_show' : _blog_data_show, 
+                     'login'          : request.session.get('loggedin'),
+                     'username'       : 'zaptyping',
+                     'time_category'  : year,
+                     'blog_data'      : _blog_data
                     } 
 
     return render(request, 'lovehome/show_blog.html', _blog_content)

@@ -30,13 +30,29 @@
         
         {% block blog_main%} 
             <div class="show_blog_title">
-                <h2>{{ blog_data.title | markdown }}</h2>
+                <h2>{{ blog_data_show.title | markdown }}</h2>
             </div>
             <div class="show_blog_content">
-                {{ blog_data.blog_content | markdown }}
+                {{ blog_data_show.blog_content | markdown }}
             </div>
             <hr />
         {% endblock %} 
+        
+        {% block blog_sidebar %} 
+            <h4>最新故事</h4>
+            {% for blog in blog_data %} 
+            <ul class="nav nav-sidebar">
+                <li><a href="{% url 'lovehome:blog_page' blog.id %}">{{ blog.title}}</a></li>
+            </ul>
+            {% endfor %}
+            <h4>时间</h4>
+            {% for year in time_category%} 
+            <ul class="nav nav-sidebar">
+                <li><a href="{% url 'lovehome:time_category' year%}">{{ year }}</a></li>
+            </ul> 
+            {% endfor %}    
+        {% endblock %} 
+
     </body>
 </html>
 

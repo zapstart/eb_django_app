@@ -31,7 +31,7 @@
             {% if blog_data %} 
                 {% for blog in blog_data %} 
                     <div class=blog_info>
-                        <h2><a class="blog_title" href="{% url 'lovehome:blog_page' blog.id %}">{{ blog.title | markdown }}</a></h2>
+                        <h3><a class="blog_title" href="{% url 'lovehome:blog_page' blog.id %}">{{ blog.title | markdown }}</a></h3>
                         <span class="created_time">{{ blog.b_created_time | date:"m/d/Y" }}</span>
                         <div class="blog_content">{{ blog.blog_content | markdown }}</div>
                         <hr />
@@ -43,19 +43,18 @@
         {% endblock %} 
         
         {% block blog_sidebar %} 
-            <h3>最新故事</h3>
-            <ul class="list-unstyled">
-                {% for blog in blog_data %} 
-                    <li><a href="{% url 'lovehome:blog_page' blog.id %}">{{ blog.title}}</a></li>
-                {% endfor %}
+            <h4>最新故事</h4>
+            {% for blog in blog_data %} 
+            <ul class="nav nav-sidebar">
+                <li><a href="{% url 'lovehome:blog_page' blog.id %}">{{ blog.title}}</a></li>
             </ul>
-            <br>
-            <h3>时间</h3>
-            <ul class="list-unstyled">
-                {% for year in time_category%} 
-                    <li><a href="{% url 'lovehome:time_category' year%}">{{ year }}</a></li> 
-                {% endfor %}
-            </ul>
+            {% endfor %}
+            <h4>时间</h4>
+            {% for year in time_category%} 
+            <ul class="nav nav-sidebar">
+                <li><a href="{% url 'lovehome:time_category' year%}">{{ year }}</a></li>
+            </ul> 
+            {% endfor %}
         {% endblock %} 
     </body>
 </html>
