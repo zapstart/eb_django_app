@@ -5,13 +5,14 @@ from django.http import HttpResponseRedirect, HttpResponse
 from .models import blog_text, user_password 
 from .utils import signup_login 
 
-year         = ['2015']
+year         = []
 _oldest_year = 0
 _latest_year = 0
 
 def show_front(request):
     global year, _oldest_year, _latest_year 
     
+    year = ['2015']
     _blog_order_by_time = blog_text.objects.order_by('-b_created_time')[ : 10]
     if _blog_order_by_time: 
         _oldest_year = int(str(_blog_order_by_time.reverse()[0].b_created_time)[ : 4])
