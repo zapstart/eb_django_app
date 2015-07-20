@@ -63,15 +63,14 @@ body {
   color           : #fff;
   text-decoration : none;
 }
+
 .btn-group {
     position    : relative;
-    left        : 65%;
-    float       : left;
+    float       : right;
     margin      : 3px 0;
 }
 
 .btn-group a {
-    left        : 62%; 
     font-weight : bold;
     color       : #CDDDEB;
 }
@@ -107,15 +106,34 @@ body {
   margin-bottom: 0px;
   margin-left: -10%;
 }
+
 .nav-sidebar > li > a {
   padding-right: 60px;
   padding-left: 60px;
   word-wrap : break-word;
   line-height : 10px;
 }
+
 .nav-sidebar > .active > a,
 .nav-sidebar > .active > a:hover,
 .nav-sidebar > .active > a:focus {
   color: #fff;
   background-color: #428bca;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+blockquote {
+    position: relative;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    background-color: #F5F5F5;
+    border-left: 4px solid #999;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 30px;
 }

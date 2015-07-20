@@ -59,7 +59,9 @@ def add_blog(request):
         return HttpResponseRedirect(reverse('lovehome:front_page'))
     else:
         if request.session.get('loggedin'):
-            return render(request, 'lovehome/add_blog.html', {'login' : request.session.get('loggedin')})
+            return render(request, 'lovehome/add_blog.html', {'login' : request.session.get('loggedin'),
+                                                              'username'      : 'zaptyping' 
+                                                             })
         else:
             return HttpResponseRedirect(reverse('lovehome:front_page'))
 
@@ -73,7 +75,9 @@ def edit_blog(request, page_id):
     else:
         if request.session.get('loggedin'):
             _blog_data = blog_text.objects.get(pk=page_id)
-            return render(request, 'lovehome/edit_blog.html', {'blog_data' : _blog_data})
+            return render(request, 'lovehome/edit_blog.html', {'blog_data' : _blog_data,
+                                                               'username'  : 'zaptyping' 
+                                                              })
         else:
             return HttpResponseRedirect(reverse('lovehome:front_page'))
 

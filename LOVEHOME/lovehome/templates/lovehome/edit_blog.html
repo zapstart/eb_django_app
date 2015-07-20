@@ -4,7 +4,7 @@
 <html>
     <head>
         {% block local_css %}
-            <link rel="stylesheet" type="text/css" href="{% static 'lovehome/add_blog.css' %}" />
+            <link rel="stylesheet" type="text/css" href="{% static 'lovehome/edit_blog.css' %}" />
         {% endblock %}
     </head>
     <body>
@@ -23,10 +23,10 @@
         {% block blog_main%} 
             <form method="POST">
                 {% csrf_token %}
-                <p class="new_blog">标题</p>
+                <p class="edit_blog">标题</p>
                 <input type="text" name="title" value="{{ blog_data.title }}">   
-                <p class="new_blog">内容</p>
-                <textarea name="blog">{{ blog_data.blog_content }}</textarea>
+                <p class="edit_blog">内容</p>
+                    <textarea name="blog">{{ blog_data.blog_content }}</textarea>
                 <div> 
                     <button type="submit" class="btn btn-primary">提交</button>
                     <button type="button" class="btn btn-primary" onclick="javascript:history.go(-1)">取消</button>

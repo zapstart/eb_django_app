@@ -29,13 +29,13 @@
         {% endblock %} 
         
         {% block blog_main%} 
+            <hr />
             <div class="show_blog_title">
                 <p>{{ blog_data_show.title | markdown }}</p>
             </div>
             <div class="show_blog_content">
-                {{ blog_data_show.blog_content | markdown }}
+                    {{ blog_data_show.blog_content | markdown }}
             </div>
-            <hr />
         {% endblock %} 
         
         {% block blog_sidebar %} 

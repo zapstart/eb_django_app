@@ -52,13 +52,11 @@ body {
 
 .btn-group {
     position    : relative;
-    left        : 65%;
-    float       : left;
+    float       : right;
     margin      : 3px 0;
 }
 
 .btn-group a {
-    left        : 62%; 
     font-weight : bold;
     color       : #CDDDEB;
 }
@@ -85,9 +83,8 @@ body {
     font-size       : 16px;
 }
 
-.blog_content img {
-    margin : 0 25%;
-}
+
+
 
 .created_time{
     line-height : 1; 
@@ -137,4 +134,21 @@ body {
 .nav-sidebar > .active > a:focus {
   color: #fff;
   background-color: #428bca;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+blockquote {
+    position: relative;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    background-color: #F5F5F5;
+    border-left: 4px solid #999;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 30px;
 }
