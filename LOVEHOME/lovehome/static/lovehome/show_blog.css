@@ -13,10 +13,12 @@ body {
 }
 
 .show_blog_title {
+    color : black; 
     font-size : 30px;
 }
 
 .show_blog_content {
+    color : black;
     margin : 4% 0 0 0; 
     font-size   : 16px;
 }
